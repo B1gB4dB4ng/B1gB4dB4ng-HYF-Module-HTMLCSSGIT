@@ -16,7 +16,6 @@
 first message
 second message ?
 
-   echo "first message" >> output.txt
-   echo "second message" >> output.txt
- 
+echo -e "first message\nsecond message">>output.txt
+
    cat output.txt  (to display the messages or output on CLI)
