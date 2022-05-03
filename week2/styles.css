@@ -1,0 +1,361 @@
+*{margin:0;
+padding: 0;}
+
+nav {background-color: black;
+color: white;
+display:flex;
+flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  padding: 5px 3px;
+  font-size: 10px;
+  position:fixed;
+  width:100%;
+  top:0;
+  position: sticky;
+  z-index: 2002;
+ }
+
+ .leftnav{
+     display: flex;
+     flex-direction: row;
+     margin-left: 15%;
+ }
+
+ .rightnav {
+     display: flex;
+     margin-right: 15%;
+ }
+ nav ul { 
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+ }
+
+ nav ul li{
+     padding: 2px;
+ }
+
+ nav ul li a {
+     text-decoration: none;
+     color: white;
+ }
+
+ nav i {
+     padding: 5px;
+ } 
+ 
+
+ nav button{
+     background-color: black;
+     color: white;
+     border-radius: 30px;
+     line-height: 16px;
+     border:none;
+     padding:10px 12px;
+     border-radius: 30px;
+ }
+
+ .signupbtn {
+     background-color: white;
+     color: black;
+ }
+
+
+ .container {
+    position: relative;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+  .container img {
+      width: 100%;
+      height:100%;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .text-block {
+    background-color:white;
+    color: black;
+    padding: 40px;
+    font-size:20px
+  }
+
+  .top {
+      display: flex;
+      flex-direction: row;
+      padding: 4%;
+      text-align: center;
+      font-size: 17px;
+  }
+
+  .top div{ 
+margin: auto;}
+
+.bottom {
+    padding-top: 25px 0;
+}
+.bottom h2 {
+    font-size: 52px;
+    font-weight: 500;
+}
+
+.signdrive {
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+
+.bottom p { 
+    margin: 35px 0 20px 0;
+}
+
+.middle-container {
+    margin: 0 20%;
+}
+
+.middle-container h2 {
+    font-size: 35px;
+    margin: 30px 0;
+}
+.middle-content {
+    display:flex ;
+    flex-direction: row;
+}
+
+.middle-item{
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.double {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.info { 
+    display: flex;
+    flex-direction: row;
+    margin: 100px 20%;
+}
+
+.info-box{margin: 50px 0 50px 0;
+}
+
+.info-items{margin:10px 0;}
+
+.download {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.nothing {
+    background-color: wheat;
+}
+
+.nothing h2{ margin: 25px 0;}
+
+.apps{
+    margin: 50px 20%;
+    padding: 50px ;;
+}
+
+.download {
+    justify-content: space-between;
+}
+.download-left {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 30px;
+
+}
+.download-right {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 30px;
+}
+
+.download h2 {padding-top: 20%;
+}
+
+.top-topics {
+    display: flex;
+    flex-direction: row;
+    margin:  0 20%;
+    justify-content: space-between;
+    padding:  0 0 5% 0;
+}
+.top-topics ul {
+    list-style: none;
+}
+
+.top-topics li { padding: 15px 0;}
+
+.footer {
+    background-color: black;
+    color: white;
+   padding: 150px 0; 
+}
+
+
+.footer-icons {
+    margin: 0 20% 0 20%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between
+}
+.helpcenter {
+    margin: 0 20%;
+    padding: 0 0 5% 0;
+}
+
+.helpcenter a { text-decoration: none;}
+.socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+.socials i {
+    color:white;padding: 10px;
+}
+.social-icons {
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+}
+
+.lang-loc{
+    display: flex;
+    flex-direction: row;
+}
+
+.app-img {
+    width: 150px;
+    padding: 10px;
+}
+
+.stores{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+@media screen and (max-width: 600px) {
+    .rightnav > ul > li:nth-child(-n + 3) {
+        display: none;
+      }
+.apps {
+    padding:0;
+    margin: 0;
+}
+.container{
+    flex-wrap: wrap;
+}
+      .middle-content {
+          display: flex;
+        flex-direction: column;
+    width: 60%;
+flex-wrap: wrap;}
+
+
+     .container img {display:  none;
+      width:80%;
+      margin-top:0px;
+    }
+
+    .download {
+        display: flex;
+        flex-direction: column;
+       flex-wrap: wrap;
+       margin: 0 5% 0 5% 0;
+    }
+
+    .stores{
+        display: flex;
+        flex-direction: column;
+    flex-wrap: wrap;}
+
+    .app-img{
+        width: 90px;
+    }
+
+        .socials {
+            display: flex;
+            flex-direction: column;}
+
+            .middle-container img{
+            width: 90%;
+            }
+            .centered {
+                position: relative;
+                margin: auto;
+                width: 80%;
+                top: 300px;
+            }
+        }
+
+        @media only screen and (min-device-width: 601px) and (max-device-width: 1024px) {
+   
+.apps {
+    padding:0;
+    margin: 0;
+}
+.container{
+    flex-wrap: wrap;
+}
+      .middle-content {
+          display: flex;
+        flex-direction: column;
+    width: 60%;
+flex-wrap: wrap;}
+
+
+     .container img {display:  none;
+      width:80%;
+      margin-top:0px;
+    }
+
+    .download {
+        display: flex;
+        flex-direction: column;
+       flex-wrap: wrap;
+       margin: 0 5% 0 5% 0;
+    }
+
+    .stores{
+        display: flex;
+        flex-direction: column;
+    margin: 0 25%;}
+
+        .socials {
+            display: flex;
+            flex-direction: column;}
+
+            .middle-container img{
+            width: 90%;
+            }
+            .centered {
+                position: relative;
+                margin: auto;
+                width: 80%;
+                top: 200px;
+            }
+
+
+  }
