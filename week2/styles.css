@@ -317,6 +317,10 @@ flex-wrap: wrap;}
                 width: 80%;
                 top: 300px;
             }
+  .top-topics{
+                display: flex;
+                flex-direction: column;
+            }
         }
 
         @media only screen and (min-device-width: 601px) and (max-device-width: 1024px) {
