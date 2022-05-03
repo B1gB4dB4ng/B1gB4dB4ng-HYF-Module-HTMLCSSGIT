@@ -78,7 +78,7 @@ flex-direction: row;
   .centered {
     position: absolute;
     top: 55%;
-    left: 30%;
+    left: 40%;
     transform: translate(-50%, -50%);
   }
   
@@ -267,6 +267,8 @@ justify-content: space-between;
 .container{
     flex-wrap: wrap;
 }
+  .centered{ padding:0;
+    margin: 0 20%}
       .middle-content {
           display: flex;
         flex-direction: column;
