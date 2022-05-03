@@ -322,7 +322,7 @@ flex-wrap: wrap;}
       .middle-content {
           display: flex;
         flex-direction: column;
-    width: 60%;
+    width: 100%;
 flex-wrap: wrap;}
 
 
