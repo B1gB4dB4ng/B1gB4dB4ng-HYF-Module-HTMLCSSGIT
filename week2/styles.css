@@ -275,7 +275,11 @@ justify-content: space-between;
     width: 100%;
 flex-wrap: wrap;}
 
-
+.info { 
+    display: flex;
+    flex-direction: column;
+    margin: 100px 20%;
+}
      .container img {display:  none;
       width:80%;
       margin-top:0px;
