@@ -68,6 +68,9 @@
         
        position:relative;
        background-image: url(uber1.png);
+       background-repeat:no-repeat;
+background-size:contain;
+
        width: 100%;
           height:auto;
        
