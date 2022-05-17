@@ -69,7 +69,7 @@
        position:relative;
        background-image: url(uber1.png);
        background-repeat:no-repeat;
-background-size:contain;
+background-size:cover;
 
        width: 100%;
           height:auto;
@@ -282,6 +282,18 @@ flex-wrap: wrap;}
         flex-wrap: wrap;
         margin: auto;
     }
+
+    .container {
+        
+        position:relative;
+        background-image: url(uber1.png);
+        background-repeat:no-repeat;
+ background-size:cover;
+ 
+        width: 100%;
+           height:auto;
+        
+     }
     .centered{ padding:0;
         margin: 0 20%}
     
@@ -361,6 +373,8 @@ flex-wrap: wrap;}
           width:80%;
           margin-top:0px;
         }
+
+        
     
         .download {
             display: flex;
